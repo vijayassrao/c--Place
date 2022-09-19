@@ -26,7 +26,7 @@ int IntSqrt(int n)
 double RequSqrt(int n, int W, int P)
 {
     double factor = 1 ; 
-    double ans=W;
+    double ans=W; 
     for(int i=0; i<P; i++)
     {
         factor = factor/10;
